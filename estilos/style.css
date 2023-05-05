@@ -17,6 +17,11 @@ body{
     background-attachment: fixed;
 }
 
+::-webkit-scrollbar{
+    width: 0px;         /* UTILIZAR CONFIGURAÇÃO PARA TIRAR ROLAGEM DE TELA*/
+    height: 0px;
+}
+
 main{
 position: relative;
 height: 100vh;
@@ -38,7 +43,7 @@ iframe#tela{
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 268px;
     height: 471px;
 }
 
